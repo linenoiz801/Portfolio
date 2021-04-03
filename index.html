@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <Title>Paul Gailey's Portfolio</Title>
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">        
+        <a class="navbar-brand" href="#">
+            <img src="./assets/placeholder.jpg" width="30" height="30" alt="Paul">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#about">About</a>
+              <a class="nav-item nav-link" href="#projects">Projects</a>
+              <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+    </nav>
+    <section id="about">        
+        <div class="jumbotron">
+            <div class="container text-left">        
+                <h1>Paul Gailey</h1>      
+                <div class="row"></div>
+                    <div class="col-lg-10">
+                        <p>I wrote my very first program at the age of five years old. On an old Commodore 64, I created the following masterpiece:</p>
+                        <div class="container text-left" id="code">
+                            10 print "I am smart"
+                            <br>
+                            20 goto 10
+                            <br><br>
+                        </div>
+                        <p>Very proud of myself, I immediately found a love for coding. I found the process of breaking down a problem into individual steps to be one of the most rewarding feelings. I have made it a point in my life to build on that process.</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="./assets/Paul.jpg" width="300" height="390">
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section id="projects">        
+        <div class="container-fluid bg-3 text-center">    
+            <h3>Projects</h3><br>            
+            <div class="row">
+                <div class="col-sm-3">
+                <p>Elmo in CSS</p>
+                <a href="https://codepen.io/linenoiz/pen/gOLLzoJ"> 
+                    <img src=".\assets\Elmo.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+                </div>
+                <div class="col-sm-3"> 
+                <p>Snake - a Console Game</p>
+                <a href="https://github.com/linenoiz801/ConsoleGame">
+                    <img src=".\assets\snake.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+                </div>
+                <div class="col-sm-5"> 
+                <p>Gold Badge Final Project</p>
+                <a href="https://github.com/linenoiz801/GoldBadgeChallenge">
+                    <img src=".\assets\Gold_PartyTracker.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div id="mailform" class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p id="contact-title" class="section-title" style="padding-top: 25px;">Contact</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/linenoiz@gmail.com" method="POST">
+                        <input name="name" type="text" placeholder="*Name" required>
+                        <input name="subject" type="text" placeholder="*Subject" required>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <input name="email" type="email" placeholder="*Email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea name="message" id="" rows="5" placeholder="*Please enter your message..." required></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </div>        
+        </div>
+    </section>
+        
+    <footer class="container-fluid text-center">
+    <p>Copyright &copy; 2021 Paul Gailey</p>
+    </footer>
+</body>
+</html>
